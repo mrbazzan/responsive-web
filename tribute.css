@@ -1,0 +1,72 @@
+
+body {
+  background-color: white;
+}
+
+#main {
+  border: 1px solid white;
+  border-radius: 15px 15px;
+  background-color: #eee;
+  font-family: monospace;
+}
+
+#title {
+  height: 100px;
+  text-align: center;
+}
+
+#title h1 {
+  font-family: Monospace;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 10px;
+}
+
+#title p {
+  font-family: "Times New Roman";
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#img-div {
+  width: 90%;
+  margin: auto;
+  background-color: #eee;
+  
+}
+
+#image {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+#img-caption {
+  width: 40%;
+  margin: 10px auto;
+  text-align: center;
+  box-shadow: 1px 1px 7px rgba(200, 200, 200, 0.4), 3px 3px 13px rgba(200,200,200,0.4);
+  
+}
+
+#tribute-info h3 {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+#tribute-info ul, blockquote{
+  width: 40%;
+  margin: 10px auto 20px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #477ca7;
+}
+
+h3 {
+  text-align: center;
+  font-family: Ariel;
+  word-spacing: 5px;
+}
