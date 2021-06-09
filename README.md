@@ -1,3 +1,4 @@
-# Tribute Page
 
-## This was done with html and css.
+# RESPONSIVE WEB
+
+## tribute.html contains a tribute page — to ``OG Bazzan``.
