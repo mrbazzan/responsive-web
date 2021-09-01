@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title> </title>
+      <style>
+
+          body {
+              font-size: 100%;
+              margin: auto;
+          }
+
+          h1 {
+              color: #086DB8;
+          }
+          .input-size {
+              width: 220px;
+              height: 30px;
+          }
+
+          .image{
+              display:flex;
+              justify-content:center;
+              background:url("https://i.postimg.cc/wvHt1C8j/signUp-1.png");
+              background-repeat:no-repeat;
+              background-position:center center;
+              width:40%;
+              height:100vh;
+            }
+
+          .inner-about-size input {
+              width: 470px;
+              height: 30px;
+          }
+
+          .select-size {
+              width: 230px;
+              height: 35px;
+          }
+
+          .full-container {
+              margin: 5rem;
+              padding: 5rem;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              width: 1152px;
+              height: 700px;
+          }
+          .container {
+              display: flex;
+              flex-direction: column;
+            }
+
+          .item {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              padding: 10px;
+              margin: 5px;
+          }
+
+          .re-shape {
+              display: block;
+          }
+
+          .left-item {
+              flex: 1.5;
+          }
+
+          .right-item {
+              flex: 1.5;
+          }
+
+          .submit > input {
+              width: 222px;
+              height: 40px;
+              color: white;
+              background-color: #3E53C3;
+          }
+      </style>
+  </head>
+
+  <body>
+    <div class="full-container">
+        <div class="container">
+
+        <div class="item">
+
+            <div class="left-item">
+                <h1>Sign Up</h1>
+            </div>
+
+
+            <div class="logo">
+                <img src="https://i.postimg.cc/ZKjL4LNN/Whats-App-Image-2021-08-10-at-12-52-1.png" alt="KodeCamp Logo">
+            </div>
+        </div>
+
+        <form action="">
+            <div class="item">
+                <div class="left-item">
+                  <label for="fname">First Name</label><br>
+                  <input type="text" class="input-size" id="fname" name="fname">
+                </div>
+                <div class="right-item">
+                  <label for="lname">Last Name</label><br>
+                  <input type="text" class="input-size" id="lname" name="lname">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="left-item">
+                  <label for="lname">Email</label><br>
+                  <input type="text" class="input-size" id="email" name="email">
+                </div>
+                <div class="right-item">
+                  <label for="gender">Gender</label><br>
+                  <input type="radio" id="male" checked name="gender">Male
+                  <input type="radio" id="female" name="gender">Female
+                  <input type="radio" id="other" name="gender">Other
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="left-item">
+                  <label for="password">Password</label><br>
+                  <input type="text" class="input-size" id="password" name="password">
+                </div>
+                <div class="right-item">
+                  <label for="confirm-password">Confirm Password</label><br>
+                  <input type="text" class="input-size" id="confirm-password" name="confirm-password">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="left-item">
+                  <label for="education">Educational Level</label><br>
+                    <select class="select-size" id="education" name="education">
+                      <option value="none" selected></option>
+                      <option value="primary">Primary</option>
+                      <option value="secondary">Secondary</option>
+                      <option value="tertiary">Tertiary</option>
+                    </select>
+            </div>
+                <div class="right-item">
+                  <label for="experience">Experience Level</label><br>
+                      <select class="select-size" id="experience" name="experience">
+                        <option value="none" selected></option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="professional">Professional</option>
+                      </select>
+                </div>
+            </div>
+
+            <div class="item re-shape">
+                <label for="about">Tell us about you</label>
+                <div class="inner-about-size">
+                    <input type="text" id="about" name="about">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="left-item">
+                    <p></p>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Create Account">
+                </div>
+            </div>
+        </form>
+    </div>
+
+        <div class="image">
+          <h3>KodeCamp</h3>
+    </div>
+    </div>
+
+  </body>
+
+<!-- Mirrored from www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_attr_callback by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Mar 2016 11:03:05 GMT -->
+</html>
